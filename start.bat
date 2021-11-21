@@ -1,4 +1,3 @@
-echo "# SkullBot" >> README.md
 git init
 git add *
 git commit -m "Primeiro Update"

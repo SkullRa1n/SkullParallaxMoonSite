@@ -31,5 +31,3 @@ Seja feliz Ass: Skull Rainer
 
 ## Licensa
 Skull Rain por sua segurança e seu apoio!
-"# SkullBot" 
-"# SkullBot" 
