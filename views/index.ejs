@@ -15,9 +15,6 @@
         </ul>
     </header>
     <section>
-        <% if (message) { %>
-        <h3 class="message"><%= message %></h3>
-        <% } %>
         <img src="estrelas.png" id="estrela" />
         <img src="lua.png" id="lua" />
         <img src="backend.png" id="back" />
@@ -25,6 +22,9 @@
         <a href="https://github.com/SkullRa1n/" id="btn">GitHub</a>
         <img src="frontend.png" id="front" />
     </section>
+    <% if (message) { %>
+      <h3 class="message"><%= message %></h3>
+    <% } %>
     <div class="sec" id="sec">
       <h2>Gênesis 1</h2>
       <p>1 No princípio Deus criou os céus e a terra.<br><br>

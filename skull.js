@@ -29,7 +29,7 @@ app.get("/static", (req, res) => {
   })
 
 app.get("/", (req, res) => {
-  req.flash('message', 'Skull Ra1n For Your Entertainment!')
+  req.flash('message', 'Skull Ra1n for your entertainment!')
   res.render('index', { message: req.flash(`message`) })
   let datah = new Date();
   var ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress

@@ -47,7 +47,7 @@ header ul li {
 .message {
   z-index: 9000;
   color: #ff0000;
-  transform: translateX(90px);
+  text-align: center;
   text-decoration: none;
   font-size: 30px;
 }
@@ -118,7 +118,7 @@ section img#lua {
   color: #f20000;
   font-size: 1.5em;
   z-index: 9;
-  transform: translateY(100px) translateX(-260px);
+  transform: translateY(100px);
 }
 
 #btn:hover {
